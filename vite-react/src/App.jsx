@@ -2,6 +2,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Sparkles } from "@react-three/drei";
 import { useRef } from "react";
 
+
 const RotatingCube = () => {
   const meshRef = useRef();
 
